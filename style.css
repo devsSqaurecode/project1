@@ -110,6 +110,56 @@ body {
   line-height: 1.4;
   font-family: montserrat;
 }
+
+.sectionTitle {
+  width: fit-content;
+  border: 2px solid #0D0D0D;
+  border-radius: 4px;
+  background-color: white;
+  margin: 0 auto 20px auto;
+}
+
+.sectionTitleHead {
+  margin: 0;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  padding: 5px 15px;
+  font-size: medium;
+}
+
+.skillsContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 3em;
+}
+
+.skillDiv {
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+
+.skillName{
+position: relative;
+  font-size: 2.1em;
+  font-weight: bold;
+}
+
+.descriptionContainer {
+  margin: 10px;
+}
+
+.skillDescription {
+  line-height: 1.7;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
 @media (min-width: 640px) {
   .info,
   .custom {
@@ -121,5 +171,45 @@ body {
   }
   .box-right .custom {
     order: 3;
+  }
+}
+
+.languagesDiv {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.languageContainer {
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10px 10px 10px;
+}
+
+.languageText {
+  margin: 5px 0;
+}
+
+@media (min-width: 450px) {
+ 
+ .sectionTitle{
+  margin: 0 auto 40px auto;
+ }
+
+ .sectionTitleHead {
+  padding: 10px 30px;
+  font-size: x-large;
+ }
+
+ .languageContainer {
+   margin: 0;
+ }
+}
+
+@media (min-width: 1200px) {
+  .skillsContainer {
+  grid-template-columns: repeat(2, 1fr);
   }
 }
