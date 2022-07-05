@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #474e5d;
+  background-color: rgb(250,250,250)
 }
 
 .navbar {
@@ -213,3 +213,56 @@ position: relative;
   grid-template-columns: repeat(2, 1fr);
   }
 }
+
+/* Intro section start */
+
+.intro{
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.fullname{
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.25rem;
+}
+
+.intro-text{
+  text-align: justify;
+  word-spacing: 0.25rem;
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 2rem;
+  margin-top: 2rem;
+}
+
+.intro-text p{
+  margin-bottom: 1.5rem;
+  
+}
+
+.intro-avatar{
+  height: 8rem;
+  width: auto;
+  margin-bottom: 1rem;
+  filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.3));
+  
+}
+
+@media screen and (max-width: 768px) {
+  .intro{
+    width: 90%;
+  }
+
+  .fullname{
+    font-size: 1.75rem;
+  }
+
+  .intro-avatar{
+    height: 6rem;
+  }
+}
+
+/* Intro section end */
