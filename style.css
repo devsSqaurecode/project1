@@ -6,12 +6,12 @@
 }
 
 body {
-  background-color: rgb(250,250,250)
+  background-color: rgb(250, 250, 250);
 }
 
 .navbar {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   background-color: black;
   min-height: 8vh;
@@ -20,7 +20,7 @@ body {
 .navLinks {
   display: flex;
   justify-content: space-around;
-  width: 30%;
+  width: 40%;
 }
 
 .navLinks li {
@@ -46,11 +46,11 @@ body {
 
 .sectionTitle {
   width: fit-content;
-  border: 2px solid #0D0D0D;
+  border: 2px solid #0d0d0d;
   border-radius: 4px;
   background-color: white;
   margin: 0 auto 2rem auto;
-  text-align: center;  
+  text-align: center;
 }
 
 .sectionTitleHead {
@@ -68,7 +68,7 @@ body {
   grid-gap: 3em;
 }
 
-.skillsSection{
+.skillsSection {
   width: 70%;
   margin: 0 auto;
   padding: 3rem 0;
@@ -84,8 +84,8 @@ body {
   text-align: center;
 }
 
-.skillName{
-position: relative;
+.skillName {
+  position: relative;
   font-size: 2.1em;
   font-weight: bold;
 }
@@ -116,13 +116,13 @@ position: relative;
   }
 }
 
-.language-section{
+.language-section {
   width: 70%;
   margin: 0 auto;
   padding: 3rem 0;
 }
 
-.languageText{
+.languageText {
   font-weight: 300;
 }
 
@@ -145,43 +145,42 @@ position: relative;
 }
 
 @media (min-width: 450px) {
- 
- .sectionTitle{
-  margin: 0 auto 40px auto;
- }
+  .sectionTitle {
+    margin: 0 auto 40px auto;
+  }
 
- .sectionTitleHead {
-  padding: 10px 30px;
-  font-size: x-large;
- }
+  .sectionTitleHead {
+    padding: 10px 30px;
+    font-size: x-large;
+  }
 
- .languageContainer {
-   margin: 0;
- }
+  .languageContainer {
+    margin: 0;
+  }
 }
 
 @media (min-width: 1200px) {
   .skillsContainer {
-  grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 /* Intro section start */
 
-.intro{
+.intro {
   width: 70%;
   margin: 0 auto;
   text-align: center;
   padding: 3rem 0;
 }
 
-.fullname{
+.fullname {
   font-size: 2.5rem;
   text-transform: uppercase;
   letter-spacing: 0.25rem;
 }
 
-.intro-text{
+.intro-text {
   text-align: justify;
   word-spacing: 0.25rem;
   font-size: 1.25rem;
@@ -190,11 +189,11 @@ position: relative;
   margin-top: 2rem;
 }
 
-.intro-text p{
+.intro-text p {
   margin-bottom: 1.5rem;
 }
 
-.intro-avatar{
+.intro-avatar {
   height: 8rem;
   width: auto;
   margin-bottom: 1rem;
@@ -202,19 +201,23 @@ position: relative;
 }
 
 @media screen and (max-width: 768px) {
-  .intro{
+  .navLinks {
+    width: 100%;
+  }
+  .intro {
     width: 90%;
   }
 
-  .fullname{
+  .fullname {
     font-size: 1.75rem;
   }
 
-  .intro-avatar{
+  .intro-avatar {
     height: 6rem;
   }
 
-  .language-section, .skillsSection{
+  .language-section,
+  .skillsSection {
     width: 90%;
   }
 }
@@ -223,35 +226,35 @@ position: relative;
 
 /* Timeline section starts */
 
-.timeline-section{
+.timeline-section {
   width: 70%;
   padding: 3rem 0;
   margin: 0 auto;
 }
 
-.timeline-container{
-  width:100%;
+.timeline-container {
+  width: 100%;
   display: grid;
   grid-template-columns: 1fr 3px 2fr;
-  column-gap: 3rem;  
+  column-gap: 3rem;
 }
 
-.timeline-date{
+.timeline-date {
   display: flex;
   justify-content: flex-end;
   align-items: center;
   font-weight: 600;
 }
 
-.timeline-line{
-  background-color: #0D0D0D;
+.timeline-line {
+  background-color: #0d0d0d;
   position: relative;
 }
 
-.timeline-dot{
+.timeline-dot {
   height: 15px;
   width: 15px;
-  background-color: #0D0D0D;
+  background-color: #0d0d0d;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -259,30 +262,30 @@ position: relative;
   border-radius: 50%;
 }
 
-.timeline-text{
-  border: 2px solid #0D0D0D;
+.timeline-text {
+  border: 2px solid #0d0d0d;
   border-radius: 0.25rem;
   padding: 2rem;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 
-.timeline-title{
+.timeline-title {
   font-weight: 600;
   display: block;
   margin-bottom: 1rem;
 }
 
-.timeline-desc{
+.timeline-desc {
   font-weight: 400;
 }
 
-.timeline-text-container{
+.timeline-text-container {
   padding: 2rem 0;
 }
 
 @media screen and (max-width: 768px) {
-  .timeline-section{
-    width:90%;
+  .timeline-section {
+    width: 90%;
   }
 }
 
