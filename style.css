@@ -116,7 +116,8 @@ body {
   border: 2px solid #0D0D0D;
   border-radius: 4px;
   background-color: white;
-  margin: 0 auto 20px auto;
+  margin: 0 auto 2rem auto;
+  text-align: center;  
 }
 
 .sectionTitleHead {
@@ -132,6 +133,12 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 3em;
+}
+
+.skillsSection{
+  width: 70%;
+  margin: 0 auto;
+  padding: 3rem 0;
 }
 
 .skillDiv {
@@ -158,6 +165,8 @@ position: relative;
   line-height: 1.7;
   margin-top: 0;
   margin-bottom: 0.5em;
+  font-weight: 300;
+  font-size: 1rem;
 }
 
 @media (min-width: 640px) {
@@ -174,9 +183,19 @@ position: relative;
   }
 }
 
+.language-section{
+  width: 70%;
+  margin: 0 auto;
+  padding: 3rem 0;
+}
+
+.languageText{
+  font-weight: 300;
+}
+
 .languagesDiv {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 
