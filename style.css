@@ -4,17 +4,31 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   background-color: rgb(250, 250, 250);
 }
 
+section {
+  margin-top: 80px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin: auto;
+}
 .navbar {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: black;
-  min-height: 8vh;
+  min-height: 5vh;
 }
 
 .navLinks {
