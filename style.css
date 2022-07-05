@@ -282,6 +282,10 @@ position: relative;
   .intro-avatar{
     height: 6rem;
   }
+
+  .language-section, .skillsSection{
+    width: 90%;
+  }
 }
 
 /* Intro section end */
